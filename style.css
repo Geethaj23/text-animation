@@ -1,0 +1,142 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+header{
+    height: 100vh;
+    width: 1150px;
+    background-image: url("https://www.miscw.com/wp-content/uploads/2016/08/Thajore-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    float:left;
+    height:15vh;
+    background-color: black;
+    opacity: 0.7;
+}
+nav.logo
+{
+    margin-left:50px;
+    margin-top:5px;
+}
+nav .menu
+{
+    width: 40%;
+    display:flex;
+    justify-content: space-around;
+ 
+}
+nav .menu a{
+    font-size: 16px;
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+section
+{
+    margin-top:0px;
+    text-align: center;
+    color:white;
+}
+section h3{
+    font-size:35px;
+    font-weight: 200;
+    letter-spacing: 8px;
+    color: #074453;
+   
+}
+section h1{
+    margin: 30px 0 20px 0;
+    font-size:45px;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+    text-shadow: 4px 4px 2px rgba(29,62,237,0.6);
+
+}
+section p{
+    font-size: 25px;
+    word-spacing: 2px;
+    margin-bottom: 25px;
+    color: #fff;
+    text-shadow: 4px 3px 1px black; 
+}
+section a{
+    padding: 12px 30px;
+    border-radius:4px;
+    outline:none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2px;
+    background-color: bisque;
+}
+.btnone
+{
+background-color: #fff;
+color:black;
+}
+.btnone:hover
+{
+background-color: rgb(22, 174, 239);
+color:aliceblue;
+}
+.btntwo
+{
+    background-color: rgb(17, 206, 143);
+    color:rgb(247, 249, 245);
+}
+.btntwo:hover
+{
+background-color: #fff;
+color:black;
+}
+.change_content::after
+{
+ content:"";
+ animation:text 10s infinite linear;
+ color:rgb(121, 8, 83);
+}
+@keyframes text{
+    0%
+    {
+     content:"Tanjore";
+
+    }
+    20%
+    {
+     content:"Madurai";
+
+    }
+    
+35%
+    {
+     content:"Chennai";
+
+    }
+    60%
+    {
+     content:"Coimbatore";
+
+    }
+    80%
+    {
+     content:"Tricy";
+
+    }
+    100%
+    {
+     content:"Salem";
+
+    }
+}
